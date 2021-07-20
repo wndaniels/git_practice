@@ -4,6 +4,6 @@
 	const newSearch = searchBar.value;
 
 	searchBtn.addEventListener('submit', function() {
-		window.open('https://www.google.com/search?q' + newSearch);
+		window.open('https://www.google.com/search?q=' + newSearch);
 	});
 })();
